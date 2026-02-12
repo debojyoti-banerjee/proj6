@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "project6_bucket" {
-  bucket = "debojyotiproject6"
+  bucket = "debojyotibanerjeeproject6"
   tags = {
     Name = "Project6bucket"
     Environment = "Dev"
